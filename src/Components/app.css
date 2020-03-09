@@ -1,0 +1,110 @@
+h1{
+    display: flex;
+    flex-direction: column;
+    color:wheat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.main{
+    background-image: url("5VImS9.png");
+    background-size: cover; 
+    background-color: transparent;
+    text-align: center;
+    position: relative;
+    flex-direction: column;
+    background-position: center;
+    padding: 10% 25% 10% 25%;
+}
+
+.mainBody{
+    border: 3px solid wheat;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 3% 6%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100%;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-bottom: 5%;
+  }
+
+.button1{
+    background-color: white; 
+    color: black; 
+    border: 2px solid white;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.input1{
+    width: 35%;
+    padding: 2% 2%;
+    margin-top: 2%;
+    margin-left: 10%;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 40px;
+    font-size: 100%;
+}
+
+.input2{
+    margin: 2%; 
+    margin-right: 10%;
+    width: 35%;
+    padding: 2% 2%;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 40px;
+    font-size: 100%;
+}
+
+.list1{
+    width: 100%;
+    margin-right: 8%;
+    margin-left: 8%;
+    padding: 2%;
+    font-size: 100%;
+    background-color:white;
+}
+
+.list2{
+    padding: 2% 5%;
+    margin-left: 10%;
+    font-size: 100%;
+    background-color:white;
+    width: 35%;
+}
+
+.list3{
+    margin-right: 10%;
+    padding: 2% 5%;
+    font-size: 100%;
+    background-color:white;
+    width: 35%;
+}
+
+.textSize{
+    text-size-adjust: 100%;
+}
+
+.flexOrder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
